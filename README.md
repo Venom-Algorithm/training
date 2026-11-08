@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | 第一次作业 | Linux 基础、第一次 C++ 编译与调试、Git 提交 | [01-first-assignment](./01-first-assignment/README.md) |
 | 第二次作业 | ROS2 入门（10 章教程）+ 轮腿机器人 LQR/VMC 平衡控制 | [02-ros2-wheelleg](./02-ros2-wheelleg/README.md) |
+| 机器人学基础 | 位置、姿态与坐标变换；基础代码作业与大小 yaw 进阶作业 | [03-robotics-basics](./03-robotics-basics/README.md) |
 
 第一次作业目录中的文件：
 
