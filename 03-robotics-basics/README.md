@@ -15,10 +15,9 @@
 | [code/robotics_demo.py](code/robotics_demo.py) | 逐步输出坐标变换和瞄准角的计算结果，提供变换工具。 |
 | [code/big_small_yaw_demo.py](code/big_small_yaw_demo.py) | 逐步输出小 yaw、大 yaw 平台与底盘之间的位置换算。 |
 | [code/exercise.py](code/exercise.py) | 基础作业的两个函数和进阶作业的一个函数。 |
-| [code/test_exercise.py](code/test_exercise.py) | 按基础、进阶两档自动检查。 |
 | [code/tf_target_demo.py](code/tf_target_demo.py) | 使用已有 TF 广播器，将合成目标转换到底盘坐标系。 |
 
-## 运行与自检
+## 运行与自评
 
 在 `code` 目录运行数学示例，对照正文中的中间结果：
 
@@ -27,11 +26,6 @@ cd ~/venom_cpp_basics/training/03-robotics-basics/code
 python3 robotics_demo.py --pitch-deg 30
 ```
 
-接着按[作业说明](作业说明.md)完成 `exercise.py`。基础为必做，进阶为选做；两档都由程序检查，提交完成的 `exercise.py` 即可。
+接着按[作业说明](作业说明.md)完成 `exercise.py`。基础为必做，进阶为选做。说明中提供函数调用示例、参考输出和方向判断方法，可以运行自己的代码，评价换轴、角度和安装偏移是否处理正确。
 
-```bash
-python3 test_exercise.py --level basic
-python3 test_exercise.py --level advanced
-```
-
-进阶作业的结构与安装偏移可先运行 `python3 big_small_yaw_demo.py` 对照，再完成第三个函数。
+进阶作业可先运行 `python3 big_small_yaw_demo.py`，观察两段变换的中间结果。完成后，将修改后的 `exercise.py` 提交并推送到自己的 Fork，页面中能看到更新即完成本次任务。
